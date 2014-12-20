@@ -1,0 +1,19 @@
+### MYO AND LINUX
+
+This python script is an example of how to use myo under linux until linux is
+(hopefully someday) supported.
+
+### Requirements
+
+Host Windows machine running at the same time (Virtual or Real doesn't matter),
+I used a virtual one
+
+ssh server on the windows machine to pass through port 10138 from localhost
+(since it is only reachable through localhost).
+
+A linux box
+
+### INSTALLATION
+
+Make sure you have the requirements, then adjust the ip_address in the script
+(for ssh and the websocket), run it from the linux side and it should work!
